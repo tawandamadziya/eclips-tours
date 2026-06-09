@@ -1,6 +1,6 @@
 # Eclips Travels - Premium Shuttle & Transfer Services Website
 
-![Eclips Travels Logo](images/logo.svg)
+![Eclips Travels Logo](assets/logo.svg)
 
 A modern, responsive, and feature-rich website for Eclips Travels - a premium shuttle, rental, and event transport service operating in Cape Town, South Africa.
 
@@ -47,7 +47,7 @@ eclips-travels-website/
 │   └── style.css       # Custom styling
 ├── js/
 │   └── script.js       # Interactive features
-├── images/
+├── assets/
 │   ├── logo.svg        # Company logo
 │   └── banner.svg      # Hero banner graphics
 └── README.md           # This file
@@ -169,7 +169,7 @@ Edit contact details in the HTML:
 In the Services section, modify or add cards by editing the HTML structure.
 
 ### 3. Modify Colors
-Update CSS variables in `css/style.css`:
+Update CSS variables in `styles/style.css`:
 ```css
 :root {
     --primary-color: #3498db;
@@ -180,7 +180,7 @@ Update CSS variables in `css/style.css`:
 
 ### 4. Add Real Images
 Replace SVG graphics with real images:
-1. Add image files to `images/` folder
+1. Add image files to `assets/` folder
 2. Update `img` or background URLs in HTML/CSS
 
 ### 5. Add More Testimonials
@@ -361,3 +361,4 @@ For questions or support:
 **Status**: Active
 
 Made for Eclips Travels - A Premium Transportation Service
+

@@ -75,11 +75,11 @@ This is a **complete, professional website** for Eclips Travels with:
 
 To personalize the website, check these files:
 
-1. **Logo & Images**: Folder `images/`
+1. **Logo & Images**: Folder `assets/`
    - `logo.svg` - Company logo
    - `banner.svg` - Hero graphic
 
-2. **Styling**: File `css/style.css`
+2. **Styling**: File `styles/style.css`
    - Colors, fonts, animations
    - Responsive design
 
@@ -127,7 +127,7 @@ eclips-travels-website/
 │   └── style.css           ← All styling
 ├── js/
 │   └── script.js           ← Interactivity
-├── images/
+├── assets/
 │   ├── logo.svg            ← Company logo
 │   └── banner.svg          ← Hero image
 ├── README.md               ← Full documentation
@@ -142,7 +142,7 @@ eclips-travels-website/
 ## 🔧 Quick Customization Tips
 
 ### Change Colors
-In `css/style.css` (line 8-13):
+In `styles/style.css` (line 8-13):
 ```css
 --primary-color: #3498db;      /* Your main color */
 --secondary-color: #1abc9c;    /* Your accent color */
@@ -261,13 +261,13 @@ The website is fully responsive! Test by:
 A: Not included in v1.0, but can be added. Check CUSTOMIZATION.md
 
 **Q: Can I add real images?**
-A: Yes! Replace SVG files in `images/` folder
+A: Yes! Replace SVG files in `assets/` folder
 
 **Q: How do I get booking notifications?**
 A: Use Formspree (free) or set up backend. See DEPLOYMENT.md
 
 **Q: Can I change the color scheme?**
-A: Yes! Edit `css/style.css` color variables
+A: Yes! Edit `styles/style.css` color variables
 
 **Q: Is it mobile friendly?**
 A: 100%! Test using browser DevTools responsive mode
@@ -340,3 +340,4 @@ Your professional Eclips Travels website is ready to go!
 **Questions? Check the docs above! They have detailed answers.** 📚
 
 Enjoy your new website! 🎊
+

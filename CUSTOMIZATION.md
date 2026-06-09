@@ -29,7 +29,7 @@
 
 ### 2. Change Colors
 
-**File:** `css/style.css`
+**File:** `styles/style.css`
 
 Find the `:root` section at the top (around line 8-13):
 
@@ -158,7 +158,7 @@ Replace:
 With:
 ```html
 <div class="avatar me-3">
-    <img src="images/customer1.jpg" alt="Customer Name" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+    <img src="assets/customer1.jpg" alt="Customer Name" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
 </div>
 ```
 
@@ -190,7 +190,7 @@ You can:
 
 **Option 1: Replace SVG Logo**
 1. Create new SVG file or export from design tool
-2. Save as `logo.svg` in `images/` folder
+2. Save as `logo.svg` in `assets/` folder
 3. The website will automatically use the new logo
 
 **Option 2: Use PNG/JPG Logo**
@@ -201,7 +201,7 @@ You can:
 ```
 3. Replace with:
 ```html
-<img src="images/your-logo.png" alt="Eclips Travels" class="logo-nav">
+<img src="assets/your-logo.png" alt="Eclips Travels" class="logo-nav">
 ```
 
 **Logo Best Practices:**
@@ -242,14 +242,14 @@ Replace URLs with your actual social media handles.
 ### 10. Replace SVG Graphics with Real Images
 
 **Current SVG locations:**
-- `images/logo.svg` - Company logo
-- `images/banner.svg` - Hero section vehicle
+- `assets/logo.svg` - Company logo
+- `assets/banner.svg` - Hero section vehicle
 - Vehicle illustrations in Fleet section
 
 **How to replace:**
 
 1. Create or source image files
-2. Save in `images/` folder
+2. Save in `assets/` folder
 3. Update HTML src attributes
 
 **Example - Replace hero vehicle:**
@@ -263,7 +263,7 @@ Find in HTML (around line 67):
 
 Replace with:
 ```html
-<img src="images/shuttle.jpg" alt="Our Shuttle" class="img-fluid">
+<img src="assets/shuttle.jpg" alt="Our Shuttle" class="img-fluid">
 ```
 
 ---
@@ -361,7 +361,7 @@ Replace `GA_MEASUREMENT_ID` with your actual ID.
 ### Add Favicon
 Add to `<head>` section:
 ```html
-<link rel="shortcut icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="shortcut icon" href="assets/logo.svg" type="image/svg+xml">
 ```
 
 ---
@@ -401,3 +401,4 @@ After making customizations:
 ---
 
 **Happy customizing! 🎨**
+

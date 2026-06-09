@@ -4,10 +4,10 @@
 
 ### Website Files
 - [x] `index.html` - Main website
-- [x] `css/style.css` - Styling
+- [x] `styles/style.css` - Styling
 - [x] `js/script.js` - Interactivity
-- [x] `images/logo.svg` - Company logo
-- [x] `images/banner.svg` - Hero banner
+- [x] `assets/logo.svg` - Company logo
+- [x] `assets/banner.svg` - Hero banner
 - [x] `README.md` - Documentation
 - [x] `DEPLOYMENT.md` - Deployment guide
 - [x] `config.json` - Configuration file
@@ -123,7 +123,7 @@ Test on these screen sizes:
 - [ ] Secondary Color: `#1abc9c` (teal)
 - [ ] Accent Color: `#e74c3c` (red)
 
-To change colors globally, edit `css/style.css`:
+To change colors globally, edit `styles/style.css`:
 ```css
 :root {
     --primary-color: #YOUR_COLOR;
@@ -330,3 +330,4 @@ Your website launch is successful when:
 **You're all set to launch Eclips Travels! Good luck! 🚗✨**
 
 Questions? Check the README.md or DEPLOYMENT.md files.
+

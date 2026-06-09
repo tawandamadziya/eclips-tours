@@ -11,7 +11,7 @@ eclips-travels-website/
 ├── 📁 js/
 │   └── script.js                    ← Interactivity & form handling
 │
-├── 📁 images/
+├── 📁 assets/
 │   ├── logo.svg                     ← Company logo (editable)
 │   └── banner.svg                   ← Hero section graphic
 │
@@ -75,7 +75,7 @@ eclips-travels-website/
   - Form validation built-in
 
 ### Styling
-- **css/style.css** (1000+ lines)
+- **styles/style.css** (1000+ lines)
   - Modern, professional design
   - Gradient backgrounds
   - Smooth animations
@@ -93,13 +93,13 @@ eclips-travels-website/
   - Success messages
 
 ### Images (SVG)
-- **images/logo.svg** (60 lines)
+- **assets/logo.svg** (60 lines)
   - Custom shuttle logo
   - Scalable vector graphics
   - Blue & teal gradient
   - Location pin accent
 
-- **images/banner.svg** (100 lines)
+- **assets/banner.svg** (100 lines)
   - Hero section vehicle
   - Cape Town inspired
   - Fully customizable
@@ -338,3 +338,4 @@ Everything you need is in this folder:
 *Premium transport brand for Cape Town travel, weddings, and events*
 
 Version: 1.0 | Status: Production Ready ✅
+

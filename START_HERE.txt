@@ -28,9 +28,9 @@
 
 🌐 WEBSITE WEBSITE
    📄 index.html                    ← Main website file (open this!)
-   📁 css/style.css                 ← Styling & design
+   📁 styles/style.css                 ← Styling & design
    📁 js/script.js                  ← Forms & animations
-   📁 images/                       ← Logo & graphics
+   📁 assets/                       ← Logo & graphics
 
 📚 DOCUMENTATION (Choose one to start)
    📖 GET_STARTED.md                ← Quick start (5 min)
@@ -83,7 +83,7 @@ Change company name:
    → Replace with: YOUR NAME
 
 Change colors:
-   → Edit: css/style.css
+   → Edit: styles/style.css
    → Update: --primary-color, --secondary-color, etc.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -188,14 +188,14 @@ Main Website:
    index.html (550 lines) - Everything in one place!
 
 Styling:
-   css/style.css (1000+ lines) - All design
+   styles/style.css (1000+ lines) - All design
 
 Interaction:
    js/script.js (300+ lines) - Forms & animations
 
 Visual Assets:
-   images/logo.svg - Company logo
-   images/banner.svg - Hero banner
+   assets/logo.svg - Company logo
+   assets/banner.svg - Hero banner
 
 Configuration:
    config.json - Settings
@@ -312,3 +312,4 @@ Your professional transportation website is ready to shine! 🌟
 Let's make it amazing!
 
 ═══════════════════════════════════════════════════════════════════════════════
+
