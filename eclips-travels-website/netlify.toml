@@ -1,0 +1,81 @@
+# Netlify Configuration for Eclips Travels Website
+
+# Build settings (not needed for static sites, but good to have)
+[build]
+  publish = "."
+  command = "echo 'No build needed - static site'"
+
+# Environment variables (uncomment and set as needed)
+# [build.environment]
+#   VARIABLES_HERE = "value"
+
+# Redirects - handle URL routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers - security and optimization
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Cache-Control = "public, max-age=31536000"
+
+# Headers for HTML files - no caching
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Headers for CSS files
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "text/css; charset=utf-8"
+
+# Headers for JS files
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "text/javascript; charset=utf-8"
+
+# Headers for SVG images
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "image/svg+xml; charset=utf-8"
+
+# Context-specific settings (Optional)
+# [context.production]
+#   environment = { CONTEXT = "production" }
+
+# [context.deploy-preview]
+#   environment = { CONTEXT = "deploy-preview" }
+
+# [context.branch-deploy]
+#   environment = { CONTEXT = "branch-deploy" }
+
+# Custom domain configuration (Optional - set in Netlify UI)
+# [context.production]
+#   command = "echo 'Production build'"
+
+# Form submissions (Netlify Forms)
+# [build]
+#   publish = "."
+#   environment = { NETLIFY_FORM_ENDPOINT = "true" }
+
+# Edge Functions (optional for future use)
+# [[edge_functions]]
+#   function = "my_function"
+#   path = "/api/*"
+
+# Plugins (optional for future use)
+# [[plugins]]
+#   package = "@netlify/plugin-nextjs"

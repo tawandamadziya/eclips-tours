@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+    <!-- Background - Cape Town cityscape inspired -->
+    <defs>
+        <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#87ceeb;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e0f6ff;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="roadGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#555;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#333;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Sky -->
+    <rect width="1200" height="280" fill="url(#skyGradient)"/>
+
+    <!-- Mountains (Table Mountain inspired) -->
+    <polygon points="0,180 200,80 250,120 400,60 500,200 800,100 900,150 1200,180" fill="#8b7355" opacity="0.7"/>
+    <polygon points="50,200 200,120 300,200 600,150 800,200 1200,190" fill="#9d8b7a" opacity="0.5"/>
+
+    <!-- Road -->
+    <rect y="280" width="1200" height="120" fill="url(#roadGradient)"/>
+
+    <!-- Road markings -->
+    <line x1="0" y1="340" x2="1200" y2="340" stroke="#ffff00" stroke-width="3" stroke-dasharray="40,20"/>
+
+    <!-- Shuttle Van on Road -->
+    <g transform="translate(150, 300)">
+        <!-- Van Body -->
+        <path d="M 0 40 Q 0 20 30 20 L 150 20 Q 180 20 180 40 L 180 80 Q 180 95 150 95 L 30 95 Q 0 95 0 80 Z" fill="#3498db" stroke="#1a1a1a" stroke-width="2"/>
+
+        <!-- Van Windows -->
+        <rect x="20" y="30" width="25" height="20" fill="#87ceeb" stroke="#1a1a1a" stroke-width="1"/>
+        <rect x="55" y="30" width="25" height="20" fill="#87ceeb" stroke="#1a1a1a" stroke-width="1"/>
+        <rect x="90" y="30" width="25" height="20" fill="#87ceeb" stroke="#1a1a1a" stroke-width="1"/>
+        <rect x="125" y="30" width="25" height="20" fill="#87ceeb" stroke="#1a1a1a" stroke-width="1"/>
+
+        <!-- Wheels -->
+        <circle cx="40" cy="105" r="12" fill="#222"/>
+        <circle cx="40" cy="105" r="6" fill="#666"/>
+        <circle cx="140" cy="105" r="12" fill="#222"/>
+        <circle cx="140" cy="105" r="6" fill="#666"/>
+
+        <!-- Door Line -->
+        <line x1="90" y1="40" x2="90" y2="85" stroke="#1a1a1a" stroke-width="1"/>
+
+        <!-- Headlights -->
+        <circle cx="175" cy="35" r="4" fill="#ffff00" opacity="0.8"/>
+        <circle cx="175" cy="55" r="4" fill="#ffff00" opacity="0.8"/>
+    </g>
+
+    <!-- Another van in distance -->
+    <g transform="translate(800, 240)" opacity="0.6">
+        <!-- Van Body -->
+        <path d="M 0 30 Q 0 15 20 15 L 100 15 Q 120 15 120 30 L 120 60 Q 120 70 100 70 L 20 70 Q 0 70 0 60 Z" fill="#1abc9c" stroke="#1a1a1a" stroke-width="1"/>
+        <!-- Wheels -->
+        <circle cx="25" cy="80" r="8" fill="#222"/>
+        <circle cx="95" cy="80" r="8" fill="#222"/>
+    </g>
+
+    <!-- Sun -->
+    <circle cx="950" cy="80" r="35" fill="#ffd700" opacity="0.8"/>
+    <circle cx="950" cy="80" r="28" fill="#ffeb3b" opacity="0.6"/>
+
+    <!-- Clouds -->
+    <g opacity="0.7">
+        <ellipse cx="200" cy="60" rx="40" ry="25" fill="#fff"/>
+        <ellipse cx="230" cy="50" rx="35" ry="20" fill="#fff"/>
+        <ellipse cx="170" cy="50" rx="30" ry="22" fill="#fff"/>
+    </g>
+
+    <g opacity="0.6">
+        <ellipse cx="1000" cy="140" rx="45" ry="28" fill="#fff"/>
+        <ellipse cx="1035" cy="130" rx="38" ry="23" fill="#fff"/>
+        <ellipse cx="965" cy="130" rx="35" ry="25" fill="#fff"/>
+    </g>
+
+    <!-- Text -->
+    <text x="600" y="150" font-size="60" font-weight="bold" text-anchor="middle" fill="#2c3e50" opacity="0.15">ECLIPS TRAVELS</text>
+    <text x="600" y="200" font-size="30" text-anchor="middle" fill="#2c3e50" opacity="0.1">Cape Town Transfer Services</text>
+</svg>

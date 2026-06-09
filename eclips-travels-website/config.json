@@ -1,0 +1,96 @@
+{
+  "name": "eclips-travels-website",
+  "version": "1.0.0",
+  "description": "Premium shuttle, rental, wedding, and event transport website for Eclips Travels - Western Cape",
+  "main": "index.html",
+  "author": "Eclips Travels",
+  "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclips-technologies/eclips-travels-website"
+  },
+  "keywords": [
+    "shuttle",
+    "transfer",
+    "transportation",
+    "western cape",
+    "cape town",
+    "travel",
+    "airport transfer",
+    "vehicle hire",
+    "wedding transport",
+    "event shuttle"
+  ],
+  "deployment": {
+    "netlify": {
+      "build_command": "echo 'No build needed'",
+      "publish_directory": "./",
+      "base": "./"
+    },
+    "vercel": {
+      "buildCommand": "echo 'No build needed'",
+      "outputDirectory": "./",
+      "framework": "html"
+    }
+  },
+  "contact": {
+    "phone": "061 480 1614",
+    "email": "booking.eclips@gmail.com",
+    "address": "Western Cape, South Africa"
+  },
+  "services": [
+    {
+      "id": "airport-transfer",
+      "name": "Airport Transfers",
+      "description": "Professional airport pickup and drop-off services to and from CTIA",
+      "features": ["Fixed competitive rates", "24/7 availability", "Professional drivers"]
+    },
+    {
+      "id": "private-hire",
+      "name": "Private Hire",
+      "description": "Flexible rentals for family trips, business travel, shopping days, and private outings",
+      "features": ["Hourly and full-day bookings", "Private driver service", "Flexible scheduling"]
+    },
+    {
+      "id": "wedding-transport",
+      "name": "Wedding Transport",
+      "description": "Stylish and reliable transport for brides, grooms, families, and wedding guests",
+      "features": ["Elegant arrivals", "Guest transport", "Reliable scheduling"]
+    },
+    {
+      "id": "event-shuttle",
+      "name": "Events & Functions",
+      "description": "Vehicle rentals and shuttle services for parties, corporate events, and special occasions",
+      "features": ["Group transport", "VIP guest transfers", "Professional service"]
+    }
+  ],
+  "fleet": [
+    {
+      "id": "mercedes-v250",
+      "name": "Premium Executive Vehicle",
+      "capacity": 7,
+      "features": ["Luxury interior", "Private hire", "Wedding-ready presentation"]
+    },
+    {
+      "id": "hyundai-staria",
+      "name": "Spacious Group Vehicle",
+      "capacity": 11,
+      "features": ["Spacious cabin", "Event shuttle", "Group travel comfort"]
+    }
+  ],
+  "social": {
+    "facebook": "#",
+    "instagram": "#",
+    "whatsapp": "https://wa.me/27614801614"
+  },
+  "analytics": {
+    "google_analytics": "UA-XXXXXXXXX-X",
+    "facebook_pixel": "XXXXXXXXXXXXXXXXX"
+  },
+  "seo": {
+    "title": "Eclips Travels - Premium Shuttle, Rental & Event Transport Services Western Cape",
+    "description": "Travel in comfort with our premium vehicles for airport transfers, private hire, weddings, and events across the Western Cape.",
+    "keywords": "shuttle western cape, vehicle hire cape town, wedding transport western cape, airport transfer cape town, event shuttle western cape",
+    "og_image": "/images/logo.svg"
+  }
+}
